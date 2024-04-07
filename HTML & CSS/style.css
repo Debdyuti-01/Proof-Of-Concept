@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 1em inter,serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    border-bottom: 1px solid rgb(238, 226, 226);
+    display: flex;
+    align-items: center;
+}
+
+.zerodha-logo {
+    height: 16.8px;
+    margin: 0 7.9rem;
+}
+
+.navlist {
+    height: 10vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navlist > ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    margin-right: 7rem;
+}
+
+
+.navlist > ul > li {
+    padding: 0 1rem;
+    margin-left: 0.7rem;
+    font-size: 0.9rem;
+}
+
+.navlist > ul > li > a {
+    color: #666;
+    text-decoration: none;
+}
+
+.navlist > ul > li:hover,
+.navlist > ul > li > a:hover {
+    color: #387ed1;
+    cursor: pointer;
+}
+
+.navlist > ul > li > div:nth-child(1),
+.navlist > ul > li > div:nth-child(2),
+.navlist > ul > li > div:nth-child(3) {
+    height: 2px;
+    width: 18px;
+    margin: 4px 0;
+    background-color: #222020;
+}
+
+.landing-page-div {
+    margin-top: 10vh;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-page-div > img {
+    height: 45.2vh;
+    width: 53vw;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 2.75rem;
+    font-weight: 540;
+    color: #424242;
+}
+
+.content {
+    word-spacing: 1px;
+    text-align: center;
+    color: #424242;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    margin: 1rem;
+}
+
+.signup-now {
+    border: none;
+    background-color: #387ed1;
+    margin: 2rem;
+    padding: 0.7rem 2rem;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.signup-now:hover {
+    background-color: #222020;
+}
