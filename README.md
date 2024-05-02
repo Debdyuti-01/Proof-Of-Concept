@@ -7,5 +7,4 @@ This folder has a basic landing page of Zerodha web page created while learning 
 
 ### Data Engineering Folder:
 This folder will have all concepts and project implementations of Data Engineering concepts
-##### Web Scraping
-I have used Python and Beautiful Soup package to perform web scraping on Amazon Data
+##### Web Scraping: I have used Python and Beautiful Soup package to perform web scraping on Amazon Data
